@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/*
+    em HTML é id = em CSS é (Dentro de um mesmo doc só pode ter um(1) id, mesmo que funcione com mais)#
+    em HTML é class - em CSS é .
+*/
+body {
+    background-color: #90cef0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #154A66;
+}
+/* tamb[em pode ser apenas #principal */
+h1#principal {
+    text-align: center;
+    color: black;
+}
+
+h2 {
+    color: #11384d;
+}
+
+.basico {
+    color: blue;
+}
+
+.inter {
+    color: blueviolet;
+}
+
+.avan {
+    color: chartreuse;
+}
+
+.destaque {
+    background-color: crimson;
+}
